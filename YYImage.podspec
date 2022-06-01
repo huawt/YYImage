@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'libwebp' do |libwebp|
     libwebp.dependency 'YYImage/Core'
-    libwebp.dependency 'WebP'
+    libwebp.dependency 'YYImage/WebP'
     libwebp.xcconfig = { 
       'USER_HEADER_SEARCH_PATHS' => '$(inherited) $(SRCROOT)/libwebp/src'
     }
